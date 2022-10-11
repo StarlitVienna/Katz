@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_notas"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="@string/menu_notas" />
+        <item
+            android:id="@+id/nav_avaliacoes"
+            android:icon="@drawable/ic_baseline_assignment_24"
+            android:title="@string/menu_avaliacoes" />
+
+        <item
+            android:id="@+id/nav_atividades"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="@string/menu_atividades" />
+
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
+            android:title="@string/menu_calendario" />
+
+        <item
+            android:id="@+id/nav_selfeval"
+            android:icon="@drawable/ic_baseline_self_improvement_24"
+            android:title="@string/menu_selfeval" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_question_mark_24"
+            android:title="@string/menu_about" />
+
+    </group>
+</menu>

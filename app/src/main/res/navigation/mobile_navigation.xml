@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.katz.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_notas"
+        android:name="com.example.katz.ui.notas.NotasFragment"
+        android:label="@string/menu_notas"
+        tools:layout="@layout/fragment_notas" />
+
+    <fragment
+        android:id="@+id/nav_avaliacoes"
+        android:name="com.example.katz.ui.avaliacoes.AvaliacoesFragment"
+        android:label="@string/menu_avaliacoes"
+        tools:layout="@layout/fragment_avaliacoes" />
+
+    <fragment
+        android:id="@+id/nav_atividades"
+        android:name="com.example.katz.ui.atividades.AtividadesFragment"
+        android:label="@string/menu_atividades"
+        tools:layout="@layout/fragment_atividades" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.katz.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="com.example.katz.ui.calendario.CalendarioFragment"
+        android:label="@string/menu_calendario"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/nav_selfeval"
+        android:name="com.example.katz.ui.selfeval.SelfevalFragment"
+        android:label="@string/menu_selfeval"
+        tools:layout="@layout/fragment_selfeval" />
+</navigation>
